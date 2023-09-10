@@ -1,0 +1,11 @@
+This project is a Python script that utilizes IPython widgets, threading, and external libraries such as PyAudio, Vosk, and recasepunc to create a real-time speech recognition and text transformation system. The core functionality includes:
+
+Recording Audio: Users can initiate and stop audio recording by clicking on corresponding buttons in an interactive IPython environment.
+
+Speech Recognition: The recorded audio is processed using the Vosk library, enabling real-time speech-to-text conversion.
+
+Text Transformation: The transcribed text is further processed by applying text transformation using the recasepunc library. This likely includes tasks like case conversion and punctuation handling.
+
+User Interface: The system offers user-friendly buttons for control and an output widget to display messages and the final transformed text.
+
+In summary, this project allows users to record spoken audio, transcribe it into text, and apply text transformations in real-time, making it a useful tool for tasks like voice data collection and text preprocessing.
